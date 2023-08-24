@@ -1,0 +1,294 @@
+/*general*/
+body, textarea {
+    margin: 0;
+    padding: 0;
+    font-family: "Monstserrat", Arial, Helvetica, sans-serif
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+p {
+    color: #70747a;
+}
+
+/*NAVBAR*/
+
+.navbar-container {
+    width: 100%;
+    height: 80px;
+    background-color: #232a31;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.navbar-items {
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+.navbar-items a {
+    text-decoration: none;
+    padding: 12px;
+    color: #fff;
+    transition: .5s;
+}
+
+.navbar-items a:hover {
+    color: #CCC;
+}
+
+.navbar-items .default-btn {
+    background-color: #2cc76a;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin: auto 15px;
+}
+
+.default-btn:hover {
+    background-color: #22bb5f;
+    color: #FFF;
+}
+/*MAIN BANNER*/
+
+.main-banner {
+    background-image: url('../img/mainbanner.png');
+    background-size: cover;
+    background-position: center;
+    padding: 10em 0;
+}
+
+.main-banner h1, .main-banner p {
+    color: #FFF;
+    text-align: center;
+    font-weight: bold;
+}
+
+.main-banner h1 {
+    font-size: 54px;
+}
+
+.main-banner p {
+    font-size: 32px;
+}
+
+/*ESPECIALIDADES*/
+
+.specialties-container {
+    padding: 5em 0;
+}
+
+.specialties-container ul {
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    /*position: relative;*/
+}
+
+.specialties-container ul li {
+    flex: 1 1 200px;
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+
+.fas {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.fa-shield-alt {
+    color: #2cc76a;
+}
+
+.fa-rocket {
+    color: rgb(239, 63, 41);
+}
+
+
+.fa-comments{
+    color: #EF8F29
+} 
+
+.specialties-container ul li h3 {
+    margin-bottom: 25px;
+}
+
+.specialties-container ul li p {
+    line-height: 24px;
+}
+
+/*preços*/
+
+.pricing-container {
+    padding-bottom: 5em;
+    text-align: center;
+}
+
+.pricing-container h1 {
+    font-size: 36px;
+    margin-top: 0;
+}
+
+.pricing-container p {
+    font-size: 20px;
+}
+
+.plans-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 90%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.plan {
+    flex: 1 1 200px;
+    max-width: 275px;
+    margin: auto 20px;
+}
+
+.plan ul {
+    padding: 0;
+}
+
+.plan li {
+    list-style: none;
+    line-height: 50px;
+    background-color: #E8E9EA;
+    color: #333;
+}
+
+.plan .price {
+    background-color: #2cc762;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto -50px auto;
+    color: #fff;
+    font-size: 18px;
+    line-height: 120px;
+}
+
+.plan .plan-name {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+    background-color: #202b34;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.plan .plan-btn {
+    font-size: 24px;
+    background-color: #2cc762;
+    padding: 14px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.plan .recommended {
+    background-color: #F45C57;
+}
+
+/*buscar dominio*/
+
+.searchdomain-container {
+    background-color: #34454E;
+    text-align: center;
+    padding: 5em 0;
+}
+
+.searchdomain-container h2 {
+    color: #fff;
+    font-size: 42px;
+    margin-top: 0;
+    /*margin-bottom: 15px;*/
+    margin: 0 auto 15px auto;
+}
+
+.searchdomain-container p {
+    font-size: 24px;
+    color: #D5D5D5;
+    margin-bottom: 25px;
+}
+
+.searchdomain-container input {
+    display: block;
+    margin: 0 auto 0 auto;
+    border: none;
+    border-radius: 5px;
+}
+
+.searchdomain-container input[type="text"] {
+    width: 60%;
+    font-size: 20px;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+.searchdomain-container input[type="submit"] {
+    background-color: #2cc762;
+    padding: 15px 30px;
+    font-size: 24px;
+    color: #FFF;
+}
+
+.contact-container {
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 2em;
+}
+
+.contact-container h2 {
+    font-size: 36px;
+}
+
+.contact-container p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.contact-container input, .contact-container textarea {
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+    margin: auto 10px 20px 10px;
+}
+
+.contact-container textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 468px;
+    height: 150px;
+    text-align: left;
+}
+
+.contact-container input[type="submit"] {
+    background-color: #2cc76a;
+    color:#FFF;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 50px;
+    font-weight: bold;
+}
